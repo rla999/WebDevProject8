@@ -1,0 +1,101 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Additional Project
+
+   Mobile Styles
+  
+
+   Filename:         tmcmobile.css
+   Supporting Files:
+
+   Name: Ryan Lasher
+   Date: March 30, 2019
+
+*/
+
+/* Styles to be used with mobile devices */
+
+/* Hide page elements that will not be displayed */
+
+header>nav {
+    display: none;
+}
+
+header>img {
+    display: none;
+}
+
+.main {
+    display: none;
+}
+
+aside {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+body {
+    background: rgb(107, 140, 80);
+}
+
+/* Header styles */
+
+header {
+    background: rgb(151, 201, 151) url(tmcback.jpg) left center no-repeat;
+    height: 50px;
+    width: 100%;
+}
+
+#depts {
+    width: 100%;
+}
+
+#depts h1 {
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+}
+
+#depts li {
+    background: url(arrow.png) right center no-repeat;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px -5px 20px rgba(51, 51, 51, 0.5) bottom left inset;
+    display: block;
+    height: 50px;
+    margin: 5px auto;
+    width: 60%;
+}
+
+#depts li a {
+    color: white;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+#depts li:nth-of-type(odd) {
+    background: rgb(187, 105, 123);
+}
+
+#depts li:nth-of-type(even) {
+    background: rgb(150, 80, 100);
+}
+
+/* #depts li: #depts li: {} */
+
+/* Styles under landscape orientation */
+
+@media only screen and (orientation: landscape) {
+    #depts li {
+        float: left;
+        margin: 5px;
+        width: 30%;
+    }
+}

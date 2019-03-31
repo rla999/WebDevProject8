@@ -1,0 +1,26 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Additional Project
+
+   Special Effects style sheet
+
+
+   Filename:         tmceffects.css
+   Supporting Files:
+
+*/
+
+/* Author: Ryan Lasher */
+
+/* Date: March 30, 2019 */
+
+body {
+    box-shadow: 20px 0px 25px rgba(31, 61, 31, 0.9), -20px 0px 25px rgba(31, 61, 31, 0.9);
+}
+
+aside div {
+    box-shadow: 5px 5px 10px rgba(101, 101, 101, 0.7);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=75%)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75%);
+}

@@ -1,0 +1,175 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 8
+   Additional Project
+
+   Texas Medical Layout Style Sheet
+
+   Filename:         tmclayout.css
+   Supporting Files:
+
+*/
+
+html {
+   background-color: rgb(111, 139, 94);
+}
+
+body {
+   background: white url(tmcback.jpg) top right no-repeat;
+   float: none;
+   margin: 0px auto;
+   max-width: 1000px;
+   min-width: 800px;
+   outline: 1px solid rgb(51, 92, 51);
+   width: 90%;
+}
+
+header {
+   border: 1px solid rgb(95, 112, 82);
+   height: 100px;
+}
+
+header nav.horizontal {
+   width: 100%;
+}
+
+header nav.horizontal li {
+   background: rgb(65, 82, 52);
+   display: block;
+   float: left;
+   outline: 1px solid black;
+   text-align: center;
+   width: 14.28%;
+}
+
+header nav.horizontal li a {
+   color: white;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   font-size: 14px;
+   letter-spacing: 1px;
+}
+
+#depts {
+   background: url(gray.png) repeat;
+   float: left;
+   padding-bottom: 30px;
+   width: 15%;
+}
+
+#depts h1 {
+   background: rgb(229, 144, 160);
+   color: white;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 200%;
+   margin-bottom: 20px;
+   padding-left: 15%;
+   width: 85%;
+}
+
+#depts li {
+   line-height: 2em;
+   margin-left: 15%;
+}
+
+#depts li a {
+   color: rgb(241, 255, 241);
+   font-size: 14px;
+}
+
+#main {
+   float: left;
+   margin-left: 2%;
+   padding-bottom: 20px;
+   width: 58%;
+}
+
+#main p {
+   font-size: 16px;
+   margin: 20px 0px 0px 0px;
+}
+
+#main h2 {
+   color: rgb(101, 101, 101);
+   font-size: 18px;
+   letter-spacing: 3px;
+   margin: 20px 0px 0px 0px;
+}
+
+aside {
+   float: left;
+   width: 25%;
+}
+
+aside div {
+   border: 1px solid rgb(101, 151, 101);
+   border-radius: 15px;
+   margin: 30px 4.9%;
+   width: 90%;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+}
+
+aside #div1 {
+   margin-top: 120px;
+}
+
+aside div h1 {
+   border-bottom: 1px solid rgb(101, 151, 101);
+   border-radius: 15px 15px 0px 0px;
+   font-size: 16px;
+   line-height: 2em;
+   text-align: center;
+}
+
+aside div p {
+   font-size: 14px;
+   margin: 10px;
+   text-align: center;
+}
+
+#div1 h1 {
+   background: rgb(88, 87, 255);
+   color: rgb(241, 255, 241);
+}
+
+#div1 {
+   background: rgb(158, 158, 255);
+}
+
+#div2 h1 {
+   background: rgb(128, 128, 0);
+   color: rgb(241, 255, 241);
+}
+
+#div2 {
+   background: rgb(228, 228, 30);
+}
+
+#div3 h1 {
+   background: rgb(207, 66, 207);
+   color: rgb(241, 255, 241);
+}
+
+#div3 {
+   background: rgb(232, 156, 232);
+}
+
+#div4 h1 {
+   background: rgb(103, 160, 103);
+   color: rgb(241, 255, 241);
+}
+
+#div4 {
+   background: rgb(172, 204, 172);
+}
+
+footer {
+   border-top: solid 1px rgb(101, 151, 101);
+   color: rgb(101, 101, 101);
+   clear: left;
+   font-size: 10px;
+   font-variant: small-caps;
+   padding: 10px 0px;
+   text-align: center;
+}
