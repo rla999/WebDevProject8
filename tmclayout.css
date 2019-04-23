@@ -16,17 +16,18 @@ html {
 
 body {
    background: white url(tmcback.jpg) top right no-repeat;
+   outline: 1px solid rgb(51, 92, 51);
    float: none;
    margin: 0px auto;
+   width: 90%;
    max-width: 1000px;
    min-width: 800px;
-   outline: 1px solid rgb(51, 92, 51);
-   width: 90%;
 }
 
+
 header {
-   border: 1px solid rgb(95, 112, 82);
    height: 100px;
+   border: 1px solid rgb(95, 112, 82);
 }
 
 header nav.horizontal {
@@ -34,38 +35,39 @@ header nav.horizontal {
 }
 
 header nav.horizontal li {
-   background: rgb(65, 82, 52);
+   background-color: rgb(65, 82, 52);
    display: block;
    float: left;
+   width: 14.28%;
    outline: 1px solid black;
    text-align: center;
-   width: 14.28%;
 }
 
 header nav.horizontal li a {
    color: white;
-   font-family: 'Trebuchet MS', Helvetica, sans-serif;
    font-size: 14px;
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
    letter-spacing: 1px;
 }
 
 #depts {
    background: url(gray.png) repeat;
+   width: 15%;
    float: left;
    padding-bottom: 30px;
-   width: 15%;
 }
 
 #depts h1 {
-   background: rgb(229, 144, 160);
-   color: white;
+   width: 85%;
+   padding-left: 15%;
    font-size: 16px;
    font-weight: bold;
+   background-color: rgb(229, 144, 160);
+   color: white;
    line-height: 200%;
    margin-bottom: 20px;
-   padding-left: 15%;
-   width: 85%;
 }
+
 
 #depts li {
    line-height: 2em;
@@ -77,11 +79,12 @@ header nav.horizontal li a {
    font-size: 14px;
 }
 
+
 #main {
-   float: left;
-   margin-left: 2%;
-   padding-bottom: 20px;
    width: 58%;
+   margin-left: 2%;
+   float: left;
+   padding-bottom: 20px;
 }
 
 #main p {
@@ -90,36 +93,39 @@ header nav.horizontal li a {
 }
 
 #main h2 {
-   color: rgb(101, 101, 101);
    font-size: 18px;
+   color: rgb(101, 101, 101);
    letter-spacing: 3px;
    margin: 20px 0px 0px 0px;
 }
 
 aside {
-   float: left;
    width: 25%;
+   float: left;
 }
 
 aside div {
-   border: 1px solid rgb(101, 151, 101);
-   border-radius: 15px;
-   margin: 30px 4.9%;
    width: 90%;
+   margin: 30px 4.9%;
+
+   border: 1px solid rgb(101, 151, 101);
+
    -moz-border-radius: 15px;
    -webkit-border-radius: 15px;
+   border-radius: 15px;
 }
+
 
 aside #div1 {
    margin-top: 120px;
 }
 
 aside div h1 {
-   border-bottom: 1px solid rgb(101, 151, 101);
-   border-radius: 15px 15px 0px 0px;
    font-size: 16px;
    line-height: 2em;
    text-align: center;
+   border-bottom: 1px solid rgb(101, 151, 101);
+   border-radius: 15px 15px 0px 0px;
 }
 
 aside div p {
@@ -129,47 +135,51 @@ aside div p {
 }
 
 #div1 h1 {
-   background: rgb(88, 87, 255);
+   background-color: rgb(88, 87, 255);
    color: rgb(241, 255, 241);
 }
 
 #div1 {
-   background: rgb(158, 158, 255);
+   background-color: rgb(158, 158, 255);
 }
 
 #div2 h1 {
-   background: rgb(128, 128, 0);
+   background-color: rgb(128, 128, 0);
    color: rgb(241, 255, 241);
 }
 
 #div2 {
-   background: rgb(228, 228, 30);
+   background-color: rgb(228, 228, 30);
 }
 
 #div3 h1 {
-   background: rgb(207, 66, 207);
+   background-color: rgb(207, 66, 207);
    color: rgb(241, 255, 241);
 }
 
 #div3 {
-   background: rgb(232, 156, 232);
+   background-color: rgb(232, 156, 232);
 }
 
 #div4 h1 {
-   background: rgb(103, 160, 103);
+   background-color: rgb(103, 160, 103);
    color: rgb(241, 255, 241);
 }
 
 #div4 {
-   background: rgb(172, 204, 172);
+   background-color: rgb(172, 204, 172);
 }
 
+
+
 footer {
-   border-top: solid 1px rgb(101, 151, 101);
-   color: rgb(101, 101, 101);
    clear: left;
+   border-top: solid 1px rgb(101, 151, 101);
+   text-align: center;
    font-size: 10px;
    font-variant: small-caps;
+   color: rgb(101, 101, 101);
    padding: 10px 0px;
-   text-align: center;
 }
+
+

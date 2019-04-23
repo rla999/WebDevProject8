@@ -1,26 +1,35 @@
 /*
    New Perspectives on HTML and CSS
    Tutorial 8
-   Additional Project
+   Additional Projecdt
 
    Special Effects style sheet
-
+   Author: Jim Innis
+   Date:   10/3/2011
 
    Filename:         tmceffects.css
    Supporting Files:
 
 */
 
-/* Author: Ryan Lasher */
-
-/* Date: March 30, 2019 */
-
 body {
-    box-shadow: 20px 0px 25px rgba(31, 61, 31, 0.9), -20px 0px 25px rgba(31, 61, 31, 0.9);
+
+
+   -moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+                    rgba(31, 61, 31, 0.9) -20px 0px 25px;
+   -webkit-box-shadow: rgba(101, 101, 101, 0.9) 20px 0px 25px,
+                    rgba(101, 101, 101, 0.9) -20px 0px 25px;
+   box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,
+                    rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
 
 aside div {
-    box-shadow: 5px 5px 10px rgba(101, 101, 101, 0.7);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=75%)";
-    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75%);
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=75)";
+
+   filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+
+   opacity: 0.75;
+
+   box-shadow: rgba(101, 101, 101, 0.7) 5px 5px 10px;
 }
+
